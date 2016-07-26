@@ -1,4 +1,3 @@
-# WsMoodle
 A Moodle 'Wspp' webservice integration for .Net applications.
 
 Features:
