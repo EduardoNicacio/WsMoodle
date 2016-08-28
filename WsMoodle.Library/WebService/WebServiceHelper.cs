@@ -93,7 +93,7 @@ namespace WsMoodle.Library.WebService
                     tws.Proxy = wp;
                 }
 
-                ServicePointManager.Expect100Continue = expectContinue.ToUpperInvariant() == "FALSE" ? false : true;
+                ServicePointManager.Expect100Continue = !"FALSE".Equals(expectContinue.ToUpperInvariant());
 
                 tws.Url = webServiceUrl;
             }

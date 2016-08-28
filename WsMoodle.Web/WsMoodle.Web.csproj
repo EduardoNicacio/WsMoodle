@@ -68,12 +68,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Web.config" />
-    <Content Include="wsMoodle.asmx" />
+    <Content Include="MoodleWebservice.asmx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="wsMoodle.asmx.cs">
-      <DependentUpon>wsMoodle.asmx</DependentUpon>
+    <Compile Include="MoodleWebservice.asmx.cs">
+      <DependentUpon>MoodleWebservice.asmx</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
   </ItemGroup>
@@ -81,13 +81,13 @@
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Properties\PublishProfiles\wsMoodle.pubxml" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\WsMoodle.Library\WsMoodle.Library.csproj">
       <Project>{5c9f16f8-c49b-43d2-af93-15f607dcc0e1}</Project>
       <Name>WsMoodle.Library</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Properties\PublishProfiles\wsMoodle.pubxml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

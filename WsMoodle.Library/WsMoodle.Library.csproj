@@ -37,15 +37,15 @@
     <Reference Include="CookComputing.XmlRpcV2">
       <HintPath>..\..\xml-rpc.net.2.5.0\bin\CookComputing.XmlRpcV2.dll</HintPath>
     </Reference>
-    <Reference Include="Gpnet.Library">
-      <HintPath>..\..\..\..\..\..\..\Projetos\GPProjetos\Gpnet.Library\trunk\Gpnet.Library.Data\bin\Release\Gpnet.Library.dll</HintPath>
-    </Reference>
-    <Reference Include="Gpnet.Library.Data">
-      <HintPath>..\..\..\..\..\..\..\Projetos\GPProjetos\Gpnet.Library\trunk\Gpnet.Library.Data\bin\Release\Gpnet.Library.Data.dll</HintPath>
-    </Reference>
-    <Reference Include="Oracle.DataAccess, Version=4.112.3.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=x86">
+    <Reference Include="Oracle.DataAccess, Version=9.2.0.700, Culture=neutral, PublicKeyToken=89b483f429c47342">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\..\Projetos\GPProjetos\Gpnet.Library\trunk\Gpnet.Library.Data\bin\Release\Oracle.DataAccess.dll</HintPath>
+      <HintPath>..\..\00. SmartIT.Library\SmartIT.Library.Data\bin\Release\Oracle.DataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="SmartIT.Library">
+      <HintPath>..\..\00. SmartIT.Library\SmartIT.Library.Data\bin\Release\SmartIT.Library.dll</HintPath>
+    </Reference>
+    <Reference Include="SmartIT.Library.Data">
+      <HintPath>..\..\00. SmartIT.Library\SmartIT.Library.Data\bin\Release\SmartIT.Library.Data.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
@@ -62,7 +62,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Service References\WsppMoodle\Reference.cs">
+    <Compile Include="Service References\Wspp\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
@@ -73,98 +73,98 @@
     <None Include="app.config">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\WsppMoodle\wsdl_pp2.wsdl" />
-    <None Include="Service References\WsppMoodle\WsMoodle.Library.WsppMoodle.activityRecord.datasource">
+    <None Include="Service References\Wspp\moodlewsdl2.wsdl" />
+    <None Include="Service References\Wspp\WsMoodle.Library.Wspp.activityRecord.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\WsppMoodle\WsMoodle.Library.WsppMoodle.affectRecord.datasource">
+    <None Include="Service References\Wspp\WsMoodle.Library.Wspp.affectRecord.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\WsppMoodle\WsMoodle.Library.WsppMoodle.assignmentRecord.datasource">
+    <None Include="Service References\Wspp\WsMoodle.Library.Wspp.assignmentRecord.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\WsppMoodle\WsMoodle.Library.WsppMoodle.assignmentSubmissionRecord.datasource">
+    <None Include="Service References\Wspp\WsMoodle.Library.Wspp.assignmentSubmissionRecord.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\WsppMoodle\WsMoodle.Library.WsppMoodle.categoryRecord.datasource">
+    <None Include="Service References\Wspp\WsMoodle.Library.Wspp.categoryRecord.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\WsppMoodle\WsMoodle.Library.WsppMoodle.changeRecord.datasource">
+    <None Include="Service References\Wspp\WsMoodle.Library.Wspp.changeRecord.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\WsppMoodle\WsMoodle.Library.WsppMoodle.cohortRecord.datasource">
+    <None Include="Service References\Wspp\WsMoodle.Library.Wspp.cohortRecord.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\WsppMoodle\WsMoodle.Library.WsppMoodle.contactRecord.datasource">
+    <None Include="Service References\Wspp\WsMoodle.Library.Wspp.contactRecord.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\WsppMoodle\WsMoodle.Library.WsppMoodle.courseRecord.datasource">
+    <None Include="Service References\Wspp\WsMoodle.Library.Wspp.courseRecord.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\WsppMoodle\WsMoodle.Library.WsppMoodle.databaseRecord.datasource">
+    <None Include="Service References\Wspp\WsMoodle.Library.Wspp.databaseRecord.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\WsppMoodle\WsMoodle.Library.WsppMoodle.enrolRecord.datasource">
+    <None Include="Service References\Wspp\WsMoodle.Library.Wspp.enrolRecord.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\WsppMoodle\WsMoodle.Library.WsppMoodle.eventRecord.datasource">
+    <None Include="Service References\Wspp\WsMoodle.Library.Wspp.eventRecord.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\WsppMoodle\WsMoodle.Library.WsppMoodle.fileRecord.datasource">
+    <None Include="Service References\Wspp\WsMoodle.Library.Wspp.fileRecord.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\WsppMoodle\WsMoodle.Library.WsppMoodle.forumDiscussionRecord.datasource">
+    <None Include="Service References\Wspp\WsMoodle.Library.Wspp.forumDiscussionRecord.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\WsppMoodle\WsMoodle.Library.WsppMoodle.forumPostRecord.datasource">
+    <None Include="Service References\Wspp\WsMoodle.Library.Wspp.forumPostRecord.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\WsppMoodle\WsMoodle.Library.WsppMoodle.forumRecord.datasource">
+    <None Include="Service References\Wspp\WsMoodle.Library.Wspp.forumRecord.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\WsppMoodle\WsMoodle.Library.WsppMoodle.gradeItemRecord.datasource">
+    <None Include="Service References\Wspp\WsMoodle.Library.Wspp.gradeItemRecord.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\WsppMoodle\WsMoodle.Library.WsppMoodle.gradeRecord.datasource">
+    <None Include="Service References\Wspp\WsMoodle.Library.Wspp.gradeRecord.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\WsppMoodle\WsMoodle.Library.WsppMoodle.groupingRecord.datasource">
+    <None Include="Service References\Wspp\WsMoodle.Library.Wspp.groupingRecord.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\WsppMoodle\WsMoodle.Library.WsppMoodle.groupRecord.datasource">
+    <None Include="Service References\Wspp\WsMoodle.Library.Wspp.groupRecord.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\WsppMoodle\WsMoodle.Library.WsppMoodle.labelRecord.datasource">
+    <None Include="Service References\Wspp\WsMoodle.Library.Wspp.labelRecord.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\WsppMoodle\WsMoodle.Library.WsppMoodle.loginReturn.datasource">
+    <None Include="Service References\Wspp\WsMoodle.Library.Wspp.loginReturn.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\WsppMoodle\WsMoodle.Library.WsppMoodle.messageRecord.datasource">
+    <None Include="Service References\Wspp\WsMoodle.Library.Wspp.messageRecord.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\WsppMoodle\WsMoodle.Library.WsppMoodle.pageWikiRecord.datasource">
+    <None Include="Service References\Wspp\WsMoodle.Library.Wspp.pageWikiRecord.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\WsppMoodle\WsMoodle.Library.WsppMoodle.profileitemRecord.datasource">
+    <None Include="Service References\Wspp\WsMoodle.Library.Wspp.profileitemRecord.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\WsppMoodle\WsMoodle.Library.WsppMoodle.quizRecord.datasource">
+    <None Include="Service References\Wspp\WsMoodle.Library.Wspp.quizRecord.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\WsppMoodle\WsMoodle.Library.WsppMoodle.resourceRecord.datasource">
+    <None Include="Service References\Wspp\WsMoodle.Library.Wspp.resourceRecord.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\WsppMoodle\WsMoodle.Library.WsppMoodle.roleRecord.datasource">
+    <None Include="Service References\Wspp\WsMoodle.Library.Wspp.roleRecord.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\WsppMoodle\WsMoodle.Library.WsppMoodle.sectionRecord.datasource">
+    <None Include="Service References\Wspp\WsMoodle.Library.Wspp.sectionRecord.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\WsppMoodle\WsMoodle.Library.WsppMoodle.userRecord.datasource">
+    <None Include="Service References\Wspp\WsMoodle.Library.Wspp.userRecord.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\WsppMoodle\WsMoodle.Library.WsppMoodle.wikiRecord.datasource">
+    <None Include="Service References\Wspp\WsMoodle.Library.Wspp.wikiRecord.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
   </ItemGroup>
@@ -172,16 +172,16 @@
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
-    <WCFMetadataStorage Include="Service References\WsppMoodle\" />
+    <WCFMetadataStorage Include="Service References\Wspp\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Service References\WsppMoodle\configuration91.svcinfo" />
+    <None Include="Service References\Wspp\configuration91.svcinfo" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Service References\WsppMoodle\configuration.svcinfo" />
+    <None Include="Service References\Wspp\configuration.svcinfo" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Service References\WsppMoodle\Reference.svcmap">
+    <None Include="Service References\Wspp\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
